@@ -8,7 +8,7 @@ from sklearn.model_selection import KFold, cross_val_score
 from sklearn.metrics import confusion_matrix, precision_recall_curve, auc, roc_auc_score, roc_curve, recall_score,classification_report
 import itertools
 from imblearn.over_sampling import SMOTE
-from sklearn.ensemble import RandomForestClassifier
+
 
 
 data = pd.read_csv("C:/Users/lance/Documents/Data scientist/Identify fraudulent credit card transactions/creditcard.csv")
